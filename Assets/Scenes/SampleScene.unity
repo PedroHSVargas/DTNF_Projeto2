@@ -412,9 +412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 981e9948b37e5ef44983333301ebe505, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Inimigo
-  vida: 20
+  _vida: 20
   dano: 10
-  jogador: {fileID: 1107144066}
+  unidadeInimiga: {fileID: 1107144066}
 --- !u!4 &648168349
 Transform:
   m_ObjectHideFlags: 0
@@ -508,9 +508,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 30c76dbffa8b2444b9b53c1d3488a928, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Jogador
-  vida: 100
+  _vida: 50
   dano: 10
-  inimigo: {fileID: 648168348}
+  unidadeInimiga: {fileID: 648168348}
 --- !u!4 &1107144067
 Transform:
   m_ObjectHideFlags: 0
