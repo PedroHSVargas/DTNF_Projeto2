@@ -6,6 +6,7 @@ public static class CalculaDano
     {
         // ex unidade.Ataque();
         unidade.vida = Mathf.Max(0, unidade.vida - dano);
+
     }
 
 
