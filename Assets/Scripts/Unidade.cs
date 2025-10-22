@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public abstract class Unidade : MonoBehaviour
+public class Unidade : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int _vida;
@@ -24,7 +24,10 @@ public abstract class Unidade : MonoBehaviour
     public int dano;
     public Unidade unidadeInimiga;
 
-    public abstract void Ataque();
+    public virtual void Ataque()
+    {
+        Debug.Log(this.gameObject.name + " atacou com a espada");
+    }
           
     
 }
