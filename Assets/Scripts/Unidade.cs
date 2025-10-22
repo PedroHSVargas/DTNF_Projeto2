@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Unidade : MonoBehaviour
+public abstract class Unidade : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public int _vida;
@@ -13,11 +13,18 @@ public class Unidade : MonoBehaviour
             Debug.Log(this.name + " tomou " + (_vida - value) + " de dano e ficou com " + _vida);
             _vida = value;
             if (_vida > 0)
+            {
+                Ataque();
                 CalculaDano.Combate(unidadeInimiga, dano);
-            else
-                Debug.Log(this.gameObject + " morreu.");
+            } else {
+                Debug.Log(this.gameObject + " morreu.");}
+                
         }
     }
     public int dano;
     public Unidade unidadeInimiga;
+
+    public abstract void Ataque();
+          
+    
 }
