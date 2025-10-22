@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Jogador : Unidade
+public class Guerreiro : Unidade
 {
 
     void Start()
