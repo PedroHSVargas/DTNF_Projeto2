@@ -4,7 +4,7 @@ public static class CalculaDano
 {
 
 
-    public static void Combate(int vida, int dano)
+    public static void Combate(ref int vida, ref int dano)
     {
         vida = Mathf.Max(0, vida - dano);
     }

@@ -9,7 +9,7 @@ public class Jogador : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        CalculaDano.Combate(inimigo.vida, dano);
+        CalculaDano.Combate(ref inimigo._vida, ref dano);
     }
 
     // Update is called once per frame
