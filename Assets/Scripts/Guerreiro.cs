@@ -9,8 +9,10 @@ public class Guerreiro : Unidade
     }
 
     // Update is called once per frame
-    void Update()
+    public void Ataque()
     {
-        
+        Debug.Log(this.gameObject.name + " atacou com a espada");
     }
+        
 }
+
