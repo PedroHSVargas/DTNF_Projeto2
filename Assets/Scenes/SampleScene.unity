@@ -394,7 +394,7 @@ GameObject:
   - component: {fileID: 648168349}
   - component: {fileID: 648168348}
   m_Layer: 0
-  m_Name: Inimigo
+  m_Name: Mago
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -490,7 +490,7 @@ GameObject:
   - component: {fileID: 1107144067}
   - component: {fileID: 1107144066}
   m_Layer: 0
-  m_Name: Jogador
+  m_Name: Guerreiro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

@@ -3,10 +3,6 @@ using UnityEngine;
 public class Guerreiro : Unidade
 {
 
-    void Start()
-    {
-        CalculaDano.Combate(unidadeInimiga, dano);
-    }
     public override void Ataque()
     {
         base.Ataque();
